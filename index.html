@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Undertale Save popup</title>
+</head>
+<body>
+    <div id="Iframe0" class="window">
+        <div onclick="frameLooper(); openFullscreen('Iframe0')" class="savebtn"><img src="Imgs/savepoint.gif" alt="" srcset="">
+        </div>
+        <div class="savectn">
+            <div class="popup" id="popup">
+                <div class="texttop">
+                    <h1 id="player">Alex</h1>
+                    <h1 id="lvl">LV 0</h1>
+                    <h1 id="time">0:00</h1>
+                </div>
+                <h1 class="locationsave" id="yellow4">Alex - Portfolio</h1>
+                <div class="textbottom">
+                    <img id="soul" src="Imgs/soul.png" alt="">
+                    <h1 id="Save">Save</h1>
+                    <h1 id="SaveReturn">Return</h1>
+                </div>
+            </div>
+        </div>
+        <audio id="keySound">
+            <source src="Sounds/snd_txt1.mp3" type="audio/mp3" />
+            Seu navegador não suporta HTML5
+        </audio>
+
+        <audio id="SaveSound">
+            <source src="Sounds/savepoint.mp3" type="audio/mp3" />
+            Seu navegador não suporta HTML5
+        </audio>
+        <audio id="StartSave">
+            <source src="Sounds/heal.mp3" type="audio/mp3" />
+            Seu navegador não suporta HTML5
+        </audio>
+        <div class="ctn hidden">
+            <ul class="box" id="box">
+                <li>
+                    <p class="ast">*</p>
+                </li>
+                <li class="list" id="text"></li>
+            </ul>
+        </div>
+        </audio>
+        <div class="ctntwo hiddentwo">
+            <ul class="box" id="box">
+                <li>
+                    <p class="ast">*</p>
+                </li>
+                <li class="listtwo" id="texttwo"></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
